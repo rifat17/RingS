@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navi_Profile"
+        android:title="Profile"
+        android:textColor="#090606"
+        android:icon="@drawable/ic_profile">
+
+    </item>
+
+    <item
+        android:id="@+id/navi_Home"
+        android:title="DashBoard"
+        android:textColor="#090606"
+        android:icon="@drawable/ic_home">
+
+    </item>
+
+    <item
+        android:id="@+id/navi_Gallary"
+        android:title="Gallery"
+        android:textColor="#090606"
+        android:icon="@drawable/ic_menu_gallery">
+
+    </item>
+
+
+
+
+</group>
+
+  <item android:title="Communication"
+      android:textColor="#090606">
+      <menu>
+
+          <item
+              android:id="@+id/navi_Share"
+              android:title="Share"
+              android:textColor="#090606"
+              android:icon="@drawable/ic_menu_share">
+
+          </item>
+          <item
+              android:id="@+id/navi_contact"
+              android:title="Contact"
+              android:textColor="#090606"
+              android:icon="@drawable/contact">
+
+          </item>
+          <item
+              android:id="@+id/navi_DeveloperInfo"
+              android:title="Developer Info"
+              android:textColor="#090606"
+              android:icon="@drawable/info">
+
+          </item>
+          <item
+              android:id="@+id/navi_signout"
+              android:title="Sign Out"
+              android:textColor="#090606"
+              android:icon="@drawable/ic_signout">
+
+          </item>
+
+
+
+      </menu>
+
+
+
+
+  </item>
+
+
+</menu>

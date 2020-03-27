@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="222dp"
+        android:layout_height="122dp"
+        android:layout_marginRight="90dp"
+        android:src="@drawable/circlet" />
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-80dp"
+        android:layout_marginBottom="-220dp"
+        android:src="@drawable/circlet" />
+
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-190dp"
+        android:src="@drawable/circlet" />
+    <ImageView
+        android:id="@+id/circle4"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="190dp"
+        android:layout_marginBottom="-220dp"
+        android:src="@drawable/circlet" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="Log In"
+        android:textColor="#070505"
+        android:textSize="35sp"
+        android:textStyle="bold">
+</TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        >
+
+
+
+        <EditText
+            android:id="@+id/IdEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Id"
+            android:layout_gravity="center"
+            android:textColor="#050404"
+            android:textSize="20sp"
+            android:backgroundTint="#050404"
+
+            >
+        </EditText>
+
+
+
+
+        <Spinner
+            android:id="@+id/login_spinner_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:backgroundTint="#070505"
+            android:spinnerMode="dropdown">
+
+
+        </Spinner>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="292dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/loginbutton"
+        android:text="Log In"
+        android:textColor="#FCF9F9"
+        android:layout_marginTop="180dp"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/loginGuestButton"
+        android:layout_width="292dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/loginbutton"
+        android:text="Log in As a Guest"
+        android:textColor="#FCF9F9"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+
+
+
+
+</LinearLayout>
