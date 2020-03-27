@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.loginButton:
 //                sendAndRequestResponse();
-                if (whenIdEditTextEmptyIsNotEmpty()) {
+                if (whenIdEditTextIsNotEmpty()) {
                     fetchUser(IdEdit.getText().toString());
                     if (searchedStudent != null) {
                         Log.d(TAG, "Enter IF");
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    private boolean whenIdEditTextEmptyIsNotEmpty() {
+    private boolean whenIdEditTextIsNotEmpty() {
 
         return !(IdEdit.getText().toString().isEmpty());
     }
